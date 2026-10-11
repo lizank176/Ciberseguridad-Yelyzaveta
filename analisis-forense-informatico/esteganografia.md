@@ -21,6 +21,7 @@ Esconder secreto y recuperarlo: Realice todos los pasos para insertar un texto s
 
 **Mediante el comando steghide info yelyazaveta-img.jpeg, comprobé la correcta incrustación del secreto en la imagen contenedora. Al introducir el salvoconducto (contraseña), la herramienta confirmó la presencia del archivo secreto.txt (56 Bytes), cifrado con el algoritmo Rijndael-128 en modo CBC y comprimido:**
 ![Texto alternativo](/img/steginfo.png) 
+
  **Para recuperar y extraer la información oculta de la imagen, ejecuté el comando de extracción especificando el archivo contenedor mediante el parámetro -sf (Stego-File) y la contraseña correspondiente con -p:**
 ![Texto alternativo](/img/extractsteg.png)
 
